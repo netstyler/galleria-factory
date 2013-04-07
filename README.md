@@ -2,6 +2,10 @@
 GalleriaFactory
 ===============
 
+```php
+THIS IS IN BETA DO NOT USE IT AT THE MOMENT... ;)
+```
+
 **Galleria** is a *CakePHP* plugin which provides an additional factory for the **Cake Toolkit** (CTK), adding configurable objects for the galleria.io javascript gallery.
 THis allows to build with objects a picture gallery based on the available functionality of galleria.io
 
