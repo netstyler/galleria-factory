@@ -22,14 +22,14 @@
  *
  * @package       GalleriaFactory.View.Factory.Galleria.Objects
  */
-class GalleriaInit extends CtkNode {
+class GalleriaGallery extends CtkNode {
 
 	/**
 	 * The template to use for this object.
 	 *
 	 * @var string The name of the template.
 	 */
-	protected $_template = 'galleria_init';
+	protected $_template = 'galleria_gallery';
 
 	/**
 	 * The configuration parameters used by the template for this object.
@@ -38,10 +38,6 @@ class GalleriaInit extends CtkNode {
 	 */
 	protected $_params = array(
 		'galleryName' => 'gallery',
-		'theme' => array(
-			'name' => 'classic',
-			'folder' => '/galleria_factory/js/galleria/src/themes/'
-		),
 		'height' => '450',
 		'width' => '600',
 		'background' => '#000'
@@ -52,5 +48,5 @@ class GalleriaInit extends CtkNode {
 	 *
 	 * @var string The element type.
 	 */
-	protected $_nodeType = 'galleria';
+	protected $_nodeType = 'gallery';
 }

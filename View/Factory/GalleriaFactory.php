@@ -49,16 +49,14 @@ class GalleriaFactory extends CtkFactory {
 			if (isset($this->settings['assets']) && $this->settings['assets']) {
 				if (isset($this->settings['js'])) {
 					if (is_string($this->settings['js'])) {
-//						echo $this->HtmlHelper->script($this->settings['js']);
-						$this->getView()->append('script', new CtkContent($this->getView(), '<script src="' . $this->settings['js'] . '"></script>'));
+						echo $this->HtmlHelper->script($this->settings['js']);
 					} else if (is_array($this->settings['js'])) {
 						for ($i = 0; $i < count($this->settings['js']); $i++) {
 							echo $this->HtmlHelper->script($this->settings['js'][$i]);
 						}
 					}
 				} else {
-//					echo $this->HtmlHelper->script('GalleriaFactory.galleria/src/galleria.js', array('block' => 'script'));
-					$this->getView()->append('script', new CtkContent($this->getView(), '<script src="/galleria_factory/galleria/src/galleria.js"></script>'));
+//					echo $this->HtmlHelper->script('GalleriaFactory.galleria/src/galleria.js');
 				}
 			}
 		}
