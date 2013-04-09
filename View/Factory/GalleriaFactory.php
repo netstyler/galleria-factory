@@ -39,12 +39,19 @@ class GalleriaFactory extends CtkFactory {
 		)
 	);
 
+	public $galleryName = 'gallery';
+
+	public $galleryData = 'data';
 	/**
 	 * Method used to setup additional resources for the factory.
 	 *
 	 * @return void
 	 */
 	public function setup() {
+
+		$this->galleryName = 'ID_' . uniqid();
+		$this->galleryData = 'data_' . uniqid();
+
 		if (isset($this->settings['assets'])) {
 			if (isset($this->settings['assets']) && $this->settings['assets']) {
 				if (isset($this->settings['js'])) {

@@ -37,10 +37,9 @@ class GalleriaGallery extends CtkNode {
 	 * @var array The template configuration parameters.
 	 */
 	protected $_params = array(
-		'galleryName' => 'gallery',
 		'height' => '450',
 		'width' => '600',
-		'background' => '#000'
+		'background' => '#fff'
 	);
 
 	/**
