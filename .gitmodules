@@ -1,0 +1,3 @@
+[submodule "webroot/js/galleria"]
+	path = webroot/js/galleria
+	url = git://github.com/aino/galleria.git
