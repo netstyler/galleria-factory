@@ -1,5 +1,5 @@
 {
-    "name": "netstyler/galleria_factory",
+    "name": "netstyler/galleria-factory",
     "description": "Galleria Factory for CTK",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "galleria", "ctk", "factory" ],
