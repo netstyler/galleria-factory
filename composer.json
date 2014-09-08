@@ -3,7 +3,7 @@
     "description": "Galleria Factory for CTK",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "galleria", "ctk", "factory" ],
-    "homepage": "https://github.com/netstyler/GalleriaFactory",
+    "homepage": "https://github.com/netstyler/galleria-factory",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/netstyler/GalleriaFactory"
+        "source": "https://github.com/netstyler/galleria-factory"
     },
     "require": {
         "php": ">=5.3.0",
