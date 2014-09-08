@@ -1,0 +1,25 @@
+{
+    "name": "netstyler/galleria_factory",
+    "description": "Galleria Factory for CTK",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "galleria", "ctk", "factory" ],
+    "homepage": "https://github.com/netstyler/GalleriaFactory",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Falk Romano",
+            "homepage": "http://www.netstyler.ch",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/netstyler/GalleriaFactory"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+    },
+    "extra": {
+        "installer-name": "GalleriaFactory"
+    }
+}
