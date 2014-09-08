@@ -16,7 +16,7 @@
         "source": "https://github.com/netstyler/galleria-factory"
     },
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.3.0"
     },
     "extra": {
         "installer-name": "GalleriaFactory"
