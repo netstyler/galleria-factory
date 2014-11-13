@@ -1,6 +1,6 @@
 <?php //debug(json_encode($this->images)); exit; ?>
 
-<script>
+<script type="text/javascript">
 	var <?php echo $this->getFactory()->galleryData; ?> = <?php echo json_encode($this->images); ?>;
 </script>
 <?php
