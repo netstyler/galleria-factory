@@ -2186,7 +2186,7 @@
 				lightbox.initialized = true;
 
 				// create some elements to work with
-				var elems = 'overlay box content shadow title info close prevholder prev nextholder next counter image',
+				var elems = 'overlay box content shadow title caption info close prevholder prev nextholder next counter image',
 					el = {},
 					op = self._options,
 					css = '',
@@ -2201,8 +2201,8 @@
 						info:       abs+'bottom:10px;left:10px;right:10px;color:#444;font:11px/13px arial,sans-serif;height:13px',
 						close:      abs+'top:10px;right:10px;height:20px;width:20px;background:#fff;text-align:center;cursor:pointer;color:#444;font:16px/22px arial,sans-serif;z-index:99999',
 						image:      abs+'top:10px;left:10px;right:10px;bottom:30px;overflow:hidden;display:block;',
-						prevholder: abs+'width:50%;top:0;bottom:40px;cursor:pointer;',
-						nextholder: abs+'width:50%;top:0;bottom:40px;right:-1px;cursor:pointer;',
+						prevholder: abs+'width:50%;top:40;bottom:40px;cursor:pointer;',
+						nextholder: abs+'width:50%;top:40;bottom:40px;right:-1px;cursor:pointer;',
 						prev:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;left:20px;display:none;text-align:center;color:#000;font:bold 16px/36px arial,sans-serif',
 						next:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;right:20px;left:auto;display:none;font:bold 16px/36px arial,sans-serif;text-align:center;color:#000',
 						title:      'float:left',
@@ -3877,7 +3877,7 @@
 					}
 
 					// alternative extraction from HTML5 data attribute, added in 1.2.7
-					$.each( 'big title description link layer image'.split(' '), function( i, val ) {
+					$.each( 'big title caption description link layer image'.split(' '), function( i, val ) {
 						if ( elem.data(val) ) {
 							data[ val ] = elem.data(val).toString();
 						}
